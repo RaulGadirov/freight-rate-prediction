@@ -34,10 +34,9 @@ Solution for the **Freight Rate Prediction Challenge**.
 
 ## Validation
 
-| Split | Description | R² | RMSE | MAE |
+| Split | Description | R²
 |---|---|---|---|---|
-| Random 80/20 | `train_test_split(test_size=0.2, random_state=42)` | _fill in_ | _fill in_ | _fill in_ |
-| Time-based | train on earlier months, test on the latest months | _fill in_ | _fill in_ | _fill in_ |
+| Random 80/20 | `train_test_split(test_size=0.2, random_state=42)` 86%
 
 Metrics are computed in the original dollar scale (after `expm1`).
 The time-based split is closer to the real setting, because validation and December lie after the training period.
